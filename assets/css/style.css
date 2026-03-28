@@ -45,16 +45,13 @@ header {
   object-fit: cover;
 }
 
-main{
-    padding-top: -720px;   
-}
-
 .container-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 80vh;
+    margin-top: -100px; 
 }
 
 .logo img {
@@ -68,13 +65,13 @@ main{
   align-items: center;
   width: 100%;
   max-width: 580px;
-  height: 46px;
+  height: 43px;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
   padding: 0 14px;
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
   background: #fff;
-  margin-top:   60px;
+  margin-top:   -10px;
 }
 
 .search-form:focus-within {
@@ -89,4 +86,17 @@ main{
   outline: none;
   font-size: 16px;
   background-color: transparent;
+}
+
+.search-form button {
+  background: transparent;
+  border: none;
+  cursor: pointer;  
+  padding: 8px;
+}
+
+.search-form button img {
+  width: 18px;
+  height: 18px;
+  display: block;
 }
