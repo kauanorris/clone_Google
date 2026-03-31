@@ -13,18 +13,18 @@ header {
 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 15px;
+    height: 12px;
 }
 
 .nav_header a{
     color: #292929;
     text-decoration: none;
-    font-weight:600;
     padding-right: 10px; 
+    font-size: 13px;
 }
 
 .config a {
@@ -32,8 +32,8 @@ header {
 }
 
 .avatar {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   overflow: hidden;
   padding: 15px;
